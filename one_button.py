@@ -8,6 +8,6 @@ def button_clicked():
 root = Tk()
 root.title('One button app')
 root.geometry('500x400+300+200')
-button = Button(root, bg="red", text="Click to quit", command=button_clicked, width=25, height=5)
+button = Button(root, text="Click to quit", command=button_clicked, width=25, height=5)
 button.pack(side='top')
 root.mainloop()
